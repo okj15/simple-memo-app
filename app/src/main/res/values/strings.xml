@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">クイックメモ</string>
+    <string name="memo_placeholder">ここにメモ…（自動保存）</string>
+</resources>
