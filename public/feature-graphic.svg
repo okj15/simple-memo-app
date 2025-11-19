@@ -1,0 +1,47 @@
+<svg width="1024" height="500" viewBox="0 0 1024 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- グラデーション背景 -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5AB9EA;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1024" height="500" fill="url(#bg-gradient)"/>
+  
+  <!-- 左側：アイコン -->
+  <g transform="translate(80, 100)">
+    <!-- 紙のメモ（縮小版） -->
+    <rect x="0" y="0" width="200" height="240" fill="#FFFFFF" rx="8" opacity="0.95"/>
+    
+    <!-- メモの線 -->
+    <line x1="30" y1="60" x2="170" y2="60" stroke="#E0E0E0" stroke-width="3" stroke-linecap="round"/>
+    <line x1="30" y1="100" x2="170" y2="100" stroke="#E0E0E0" stroke-width="3" stroke-linecap="round"/>
+    <line x1="30" y1="140" x2="140" y2="140" stroke="#E0E0E0" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- ペン -->
+    <g transform="translate(160, 200)">
+      <path d="M -10 10 L 8 -8" stroke="#4A90E2" stroke-width="6" stroke-linecap="round"/>
+      <circle cx="10" cy="-10" r="4" fill="#2E5C8A"/>
+    </g>
+  </g>
+  
+  <!-- 右側：テキスト -->
+  <g transform="translate(350, 150)">
+    <!-- アプリ名 -->
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="#FFFFFF">
+      シンプルメモ
+    </text>
+    
+    <!-- サブタイトル -->
+    <text x="0" y="70" font-family="Arial, sans-serif" font-size="36" fill="#FFFFFF" opacity="0.9">
+      思いついたらすぐメモ
+    </text>
+    
+    <!-- 特徴 -->
+    <text x="0" y="130" font-family="Arial, sans-serif" font-size="28" fill="#FFFFFF" opacity="0.85">
+      ✓ 自動保存　✓ シンプル　✓ 軽量
+    </text>
+  </g>
+</svg>
+

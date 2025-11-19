@@ -1,0 +1,23 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="512" height="512" fill="#4A90E2" rx="80"/>
+  
+  <!-- 紙のメモ -->
+  <rect x="120" y="100" width="272" height="312" fill="#FFFFFF" rx="8"/>
+  
+  <!-- メモの線（3本） -->
+  <line x1="160" y1="180" x2="352" y2="180" stroke="#E0E0E0" stroke-width="3" stroke-linecap="round"/>
+  <line x1="160" y1="240" x2="352" y2="240" stroke="#E0E0E0" stroke-width="3" stroke-linecap="round"/>
+  <line x1="160" y1="300" x2="280" y2="300" stroke="#E0E0E0" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- ペンのアイコン -->
+  <g transform="translate(320, 340)">
+    <!-- ペンの軸 -->
+    <path d="M -15 15 L 10 -10" stroke="#4A90E2" stroke-width="8" stroke-linecap="round"/>
+    <!-- ペン先 -->
+    <circle cx="12" cy="-12" r="5" fill="#2E5C8A"/>
+    <!-- ペンのクリップ -->
+    <path d="M -5 5 L -3 -3" stroke="#2E5C8A" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>
+
