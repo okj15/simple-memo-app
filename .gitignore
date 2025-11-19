@@ -7,3 +7,5 @@
 /captures
 .cxx
 app/build/
+app/release/
+keystore.properties
